@@ -1,0 +1,72 @@
+@CHARSET "UTF-8";
+
+ul.entrylisting {
+	
+	list-style: none outside none;
+    margin: 0;
+    padding: 0;
+	
+}
+
+li.entry {
+	background-color: transparent;
+    display: block;
+    clear: both;
+    margin: 10px 0 10px 0;
+}
+
+li.entry .headline {
+	height: 30px !important;
+    overflow: hidden;
+    background-color: #cccccc;
+    padding: 0 0 0 10px;
+    position: relative;
+}
+
+li.entry .headline strong {
+	line-height: 2.1em;
+}
+
+li.entry .location {
+	font-size: 12px;
+	padding: 0 0 0 10px;
+	display: block;
+	position: relative;
+}
+
+li.entry .address {
+	float: left;
+	width: 200px;
+}
+
+li.entry .phone {
+	float: left;
+}
+
+li.entry .email {
+	float: right;
+}
+
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+.pagination {
+	clear: both;
+	display: block;
+}
+
+.pagileft {
+	padding: 0 0 0 10px;
+	width: 200px;
+	float: left;
+}
+
+.pagiright {
+	padding: 0 10px 0 0;
+	float: right;
+}
